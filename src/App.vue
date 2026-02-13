@@ -66,7 +66,7 @@ onMounted(() => {
 
 
 	<div class="absolute flex flex-col w-full h-screen items-center justify-center p-5 duration-100" :class="isAnswerYes ? 'scale-100' : 'scale-0'">
-		<img class="w-full transition-all duration-400" :class="isAnswerYes ? 'scale-100' : 'scale-0'" src="/cat.jpg" alt="for you">
+		<img class="max-w-2/3 transition-all duration-400" :class="isAnswerYes ? 'scale-100' : 'scale-0'" src="/cat.jpg" alt="for you">
 		<h1  class="text-2xl transition-all duration-400" :class="isAnswerYes ? 'scale-100' : 'scale-0'">Te quiero muchooo</h1>
 	</div>
 
