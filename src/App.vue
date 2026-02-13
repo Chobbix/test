@@ -72,7 +72,7 @@ onMounted(() => {
 
 	<div class="flex flex-col w-full h-screen items-center justify-center p-5" :class="isAnswerYes ? 'scale-0' : 'scale-100'">
 		<div class="flex flex-col p-3 bg-violet-400 w-full items-center justify-center rounded-xl text-center">
-			<h1 class="text-2xl">¿Quieres ser mi valentín?</h1>
+			<h1 class="text-2xl">¿Quieres ser mi san valentín?</h1>
 			<div>
 				<button
 					class="p-5 m-2 border border-violet-300 rounded-xl bg-violet-400 hover:bg-violet-300 transition-all duration-300"
